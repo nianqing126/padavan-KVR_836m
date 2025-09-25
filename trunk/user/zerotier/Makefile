@@ -9,7 +9,7 @@ config_test:
 clean:
 
 romfs:
-    $(ROMFSINST) $(THISDIR)/zerotier-one /usr/bin/zerotier-one
-	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
+    $(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/zerotier-one /usr/bin/zerotier-one
+    #$(ROMFSINST) $(THISDIR)/zerotier-one /usr/bin/zerotier-one
 	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
 
