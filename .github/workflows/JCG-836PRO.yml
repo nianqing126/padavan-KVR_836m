@@ -1,5 +1,5 @@
 
-name: JCG-AC836M #原版K2P
+name: JCG-836PRO #原版K2P
 
 on: 
   workflow_dispatch:
@@ -46,7 +46,7 @@ jobs:
         sed -i 's/mtd_part_size=65536/mtd_part_size=5242880/g' /opt/rt-n56u/trunk/user/scripts/mtd_storage.sh
     - name: Build Firmware
       env:
-        TNAME: JCG-AC836M
+        TNAME: JCG-836PRO
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
