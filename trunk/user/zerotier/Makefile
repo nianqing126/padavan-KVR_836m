@@ -1,4 +1,4 @@
-SRC_NAME = 
+SRC_NAME = zerotier-one
 THISDIR = $(shell pwd)
 
 all:
