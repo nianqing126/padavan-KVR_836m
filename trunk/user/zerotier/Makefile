@@ -1,4 +1,4 @@
-SRC_NAME = ZeroTierOne
+SRC_NAME = 
 THISDIR = $(shell pwd)
 
 all:
@@ -9,5 +9,7 @@ config_test:
 clean:
 
 romfs:
+    $(ROMFSINST) $(THISDIR)/zerotier-one /usr/bin/zerotier-one
+	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
 	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
 
