@@ -1,4 +1,4 @@
-SRC_NAME = ZeroTierOne
+SRC_NAME = ZeroTierOne-1.16.0
 THISDIR = $(shell pwd)
 
 all:
