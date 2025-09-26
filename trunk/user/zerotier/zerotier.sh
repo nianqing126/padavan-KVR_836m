@@ -1,7 +1,9 @@
 #!/bin/sh
 
 #PROG="$(nvram get zerotier_bin)"
-PROG="/usr/bin/zerotier-one"
+PROG=/usr/bin/zerotier-one
+PROGCLI=/usr/bin/zerotier-cli
+PROGIDT=/usr/bin/zerotier-idtool
 config_path="/etc/storage/zerotier-one"
 user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
 github_proxys="$(nvram get github_proxy)"
