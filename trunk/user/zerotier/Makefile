@@ -11,3 +11,4 @@ clean:
 romfs:
 	$(ROMFSINST) $(THISDIR)/zerotier.sh /usr/bin/zerotier.sh
 
+    $(ROMFSINST) $(THISDIR)/zerotier-one /usr/bin/zerotier-one
