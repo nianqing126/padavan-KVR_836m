@@ -307,7 +307,8 @@ start_zero() {
  	if [ -z "$PROG" ] ; then
   		etc_size=`check_disk_size /etc/storage`
       		if [ "$etc_size" -gt 1 ] ; then
-			PROG=/etc/storage/bin/zerotier-one
+			#PROG=/etc/storage/bin/zerotier-one
+			PROG=/usr/bin/zerotier-one
    		else
      			PROG=/tmp/var/zerotier-one
 		fi
