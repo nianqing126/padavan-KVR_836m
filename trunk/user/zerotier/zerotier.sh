@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#PROG="$(nvram get zerotier_bin)"
-PROG=/usr/bin/zerotier-one
+PROG="$(nvram get zerotier_bin)"
+#PROG=/usr/bin/zerotier-one
 PROGCLI=/usr/bin/zerotier-cli
 PROGIDT=/usr/bin/zerotier-idtool
 config_path="/etc/storage/zerotier-one"
